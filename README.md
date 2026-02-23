@@ -1,5 +1,8 @@
 # nexus-suite
 
+[![CI](https://github.com/mcp-tool-shop-org/nexus-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/mcp-tool-shop-org/nexus-suite/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Governance, attestation, and routing infrastructure for MCP tool ecosystems.
 
 ## Projects
@@ -17,7 +20,7 @@ Governance, attestation, and routing infrastructure for MCP tool ecosystems.
 
 ```bash
 # Clone
-git clone https://github.com/mcp-tool-shop/nexus-suite.git
+git clone https://github.com/mcp-tool-shop-org/nexus-suite.git
 cd nexus-suite
 
 # Install a component
