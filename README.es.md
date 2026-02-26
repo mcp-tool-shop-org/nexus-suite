@@ -3,9 +3,7 @@
 </p>
 
 <p align="center">
-  
-            <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/brand/main/logos/nexus-suite/readme.png"
-           alt="Nexus Suite" width="400">
+  <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/nexus-suite/main/assets/logo-nexus-suite.png" alt="Nexus Suite" width="400">
 </p>
 
 <p align="center">
