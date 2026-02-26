@@ -12,34 +12,34 @@
   <a href="https://mcp-tool-shop-org.github.io/nexus-suite/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
-**Governance, attestation, and routing infrastructure for MCP tool ecosystems.**
+**MCPツールエコシステムのためのガバナンス、認証、およびルーティングインフラストラクチャ。**
 
 ---
 
-## At a Glance
+## 概要
 
-- **Attestation** -- sign and verify tool outputs with `nexus-attest`
-- **Governance** -- define and enforce policies with `nexus-control`
-- **Routing** -- dispatch requests via pluggable adapters with `nexus-router`
-- **Composable** -- six independent packages, use what you need
-- **Python native** -- standard `pip install -e .` workflow, `pytest` for testing
-
----
-
-## Projects
-
-| Package | Description |
-|---------|-------------|
-| `nexus-attest` | Attestation signing and verification |
-| `nexus-control` | Control plane for governance policies |
-| `nexus-router` | Request routing and dispatch |
-| `nexus-router-adapter-stdout` | Router adapter for stdout transport |
-| `nexus-router-adapter-http` | Router adapter for HTTP transport |
-| `nexus-router-adapter-template` | Template for building custom adapters |
+- **認証:** `nexus-attest`を使用して、ツールの出力に署名および検証を行います。
+- **ガバナンス:** `nexus-control`を使用して、ポリシーを定義および適用します。
+- **ルーティング:** `nexus-router`を使用して、プラグイン可能なアダプターを介してリクエストを転送します。
+- **モジュール性:** 6つの独立したパッケージで構成されており、必要なものだけを使用できます。
+- **Pythonネイティブ:** 標準的な`pip install -e .`のワークフローを使用し、テストには`pytest`を使用します。
 
 ---
 
-## Quick Start
+## プロジェクト
+
+| パッケージ | 説明 |
+| --------- | ------------- |
+| `nexus-attest` | 認証の署名と検証 |
+| `nexus-control` | ガバナンスポリシーのための制御面 |
+| `nexus-router` | リクエストのルーティングと転送 |
+| `nexus-router-adapter-stdout` | 標準出力（stdout）転送用のルーターアダプター |
+| `nexus-router-adapter-http` | HTTP転送用のルーターアダプター |
+| `nexus-router-adapter-template` | カスタムアダプターを構築するためのテンプレート |
+
+---
+
+## クイックスタート
 
 ```bash
 # Clone
@@ -56,7 +56,7 @@ pytest
 
 ---
 
-## Architecture
+## アーキテクチャ
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,6 +82,6 @@ pytest
 
 ---
 
-## License
+## ライセンス
 
 [MIT](LICENSE)

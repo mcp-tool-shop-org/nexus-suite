@@ -12,34 +12,34 @@
   <a href="https://mcp-tool-shop-org.github.io/nexus-suite/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
-**Governance, attestation, and routing infrastructure for MCP tool ecosystems.**
+**Infrastruttura di governance, attestazione e routing per gli ecosistemi di strumenti MCP.**
 
 ---
 
-## At a Glance
+## Panoramica
 
-- **Attestation** -- sign and verify tool outputs with `nexus-attest`
-- **Governance** -- define and enforce policies with `nexus-control`
-- **Routing** -- dispatch requests via pluggable adapters with `nexus-router`
-- **Composable** -- six independent packages, use what you need
-- **Python native** -- standard `pip install -e .` workflow, `pytest` for testing
-
----
-
-## Projects
-
-| Package | Description |
-|---------|-------------|
-| `nexus-attest` | Attestation signing and verification |
-| `nexus-control` | Control plane for governance policies |
-| `nexus-router` | Request routing and dispatch |
-| `nexus-router-adapter-stdout` | Router adapter for stdout transport |
-| `nexus-router-adapter-http` | Router adapter for HTTP transport |
-| `nexus-router-adapter-template` | Template for building custom adapters |
+- **Attestazione:** firmare e verificare i risultati degli strumenti con `nexus-attest`.
+- **Governance:** definire e applicare politiche con `nexus-control`.
+- **Routing:** instradare le richieste tramite adattatori modulari con `nexus-router`.
+- **Componibile:** sei pacchetti indipendenti, utilizzare solo ciò di cui si ha bisogno.
+- **Nativo per Python:** flusso di lavoro standard `pip install -e .`, `pytest` per i test.
 
 ---
 
-## Quick Start
+## Progetti
+
+| Pacchetto | Descrizione |
+| --------- | ------------- |
+| `nexus-attest` | Firma e verifica dell'attestazione. |
+| `nexus-control` | Strato di controllo per le politiche di governance. |
+| `nexus-router` | Instradamento e dispatch delle richieste. |
+| `nexus-router-adapter-stdout` | Adattatore del router per il trasporto tramite stdout. |
+| `nexus-router-adapter-http` | Adattatore del router per il trasporto HTTP. |
+| `nexus-router-adapter-template` | Modello per la creazione di adattatori personalizzati. |
+
+---
+
+## Guida rapida
 
 ```bash
 # Clone
@@ -56,7 +56,7 @@ pytest
 
 ---
 
-## Architecture
+## Architettura
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,6 +82,6 @@ pytest
 
 ---
 
-## License
+## Licenza
 
 [MIT](LICENSE)

@@ -12,34 +12,34 @@
   <a href="https://mcp-tool-shop-org.github.io/nexus-suite/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
-**Governance, attestation, and routing infrastructure for MCP tool ecosystems.**
+**Infraestructura de gobernanza, certificación y enrutamiento para ecosistemas de herramientas MCP.**
 
 ---
 
-## At a Glance
+## Resumen
 
-- **Attestation** -- sign and verify tool outputs with `nexus-attest`
-- **Governance** -- define and enforce policies with `nexus-control`
-- **Routing** -- dispatch requests via pluggable adapters with `nexus-router`
-- **Composable** -- six independent packages, use what you need
-- **Python native** -- standard `pip install -e .` workflow, `pytest` for testing
-
----
-
-## Projects
-
-| Package | Description |
-|---------|-------------|
-| `nexus-attest` | Attestation signing and verification |
-| `nexus-control` | Control plane for governance policies |
-| `nexus-router` | Request routing and dispatch |
-| `nexus-router-adapter-stdout` | Router adapter for stdout transport |
-| `nexus-router-adapter-http` | Router adapter for HTTP transport |
-| `nexus-router-adapter-template` | Template for building custom adapters |
+- **Certificación:** Firme y verifique los resultados de las herramientas con `nexus-attest`.
+- **Gobernanza:** Defina y aplique políticas con `nexus-control`.
+- **Enrutamiento:** Dirija las solicitudes a través de adaptadores modulares con `nexus-router`.
+- **Modular:** Seis paquetes independientes, use lo que necesite.
+- **Nativo de Python:** Flujo de trabajo estándar `pip install -e .`, `pytest` para pruebas.
 
 ---
 
-## Quick Start
+## Proyectos
+
+| Paquete | Descripción |
+| --------- | ------------- |
+| `nexus-attest` | Firma y verificación de la certificación. |
+| `nexus-control` | Plano de control para políticas de gobernanza. |
+| `nexus-router` | Enrutamiento y distribución de solicitudes. |
+| `nexus-router-adapter-stdout` | Adaptador de enrutador para transporte a través de la salida estándar (stdout). |
+| `nexus-router-adapter-http` | Adaptador de enrutador para transporte HTTP. |
+| `nexus-router-adapter-template` | Plantilla para crear adaptadores personalizados. |
+
+---
+
+## Inicio rápido
 
 ```bash
 # Clone
@@ -56,7 +56,7 @@ pytest
 
 ---
 
-## Architecture
+## Arquitectura
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,6 +82,6 @@ pytest
 
 ---
 
-## License
+## Licencia
 
 [MIT](LICENSE)

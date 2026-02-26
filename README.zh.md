@@ -12,34 +12,34 @@
   <a href="https://mcp-tool-shop-org.github.io/nexus-suite/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
-**Governance, attestation, and routing infrastructure for MCP tool ecosystems.**
+**MCP 工具生态系统的治理、认证和路由基础设施。**
 
 ---
 
-## At a Glance
+## 概述
 
-- **Attestation** -- sign and verify tool outputs with `nexus-attest`
-- **Governance** -- define and enforce policies with `nexus-control`
-- **Routing** -- dispatch requests via pluggable adapters with `nexus-router`
-- **Composable** -- six independent packages, use what you need
-- **Python native** -- standard `pip install -e .` workflow, `pytest` for testing
-
----
-
-## Projects
-
-| Package | Description |
-|---------|-------------|
-| `nexus-attest` | Attestation signing and verification |
-| `nexus-control` | Control plane for governance policies |
-| `nexus-router` | Request routing and dispatch |
-| `nexus-router-adapter-stdout` | Router adapter for stdout transport |
-| `nexus-router-adapter-http` | Router adapter for HTTP transport |
-| `nexus-router-adapter-template` | Template for building custom adapters |
+- **认证 (Attestation)**：使用 `nexus-attest` 对工具输出进行签名和验证。
+- **治理 (Governance)**：使用 `nexus-control` 定义和执行策略。
+- **路由 (Routing)**：使用 `nexus-router` 通过可插拔的适配器分发请求。
+- **可组合性 (Composable)**：包含六个独立的软件包，您可以根据需要选择使用。
+- **原生 Python 支持**：采用标准的 `pip install -e .` 安装流程，使用 `pytest` 进行测试。
 
 ---
 
-## Quick Start
+## 项目
+
+| 软件包 | 描述 |
+| --------- | ------------- |
+| `nexus-attest` | 用于签名和验证的认证模块。 |
+| `nexus-control` | 用于管理治理策略的控制模块。 |
+| `nexus-router` | 用于请求路由和分发的模块。 |
+| `nexus-router-adapter-stdout` | 用于标准输出传输的路由器适配器。 |
+| `nexus-router-adapter-http` | 用于 HTTP 传输的路由器适配器。 |
+| `nexus-router-adapter-template` | 用于构建自定义适配器的模板。 |
+
+---
+
+## 快速入门
 
 ```bash
 # Clone
@@ -56,7 +56,7 @@ pytest
 
 ---
 
-## Architecture
+## 架构
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,6 +82,6 @@ pytest
 
 ---
 
-## License
+## 许可证
 
 [MIT](LICENSE)

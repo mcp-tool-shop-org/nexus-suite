@@ -12,34 +12,34 @@
   <a href="https://mcp-tool-shop-org.github.io/nexus-suite/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
-**Governance, attestation, and routing infrastructure for MCP tool ecosystems.**
+**एमसीपी टूल इकोसिस्टम के लिए शासन, प्रमाणीकरण और रूटिंग इंफ्रास्ट्रक्चर।**
 
 ---
 
-## At a Glance
+## एक नज़र में
 
-- **Attestation** -- sign and verify tool outputs with `nexus-attest`
-- **Governance** -- define and enforce policies with `nexus-control`
-- **Routing** -- dispatch requests via pluggable adapters with `nexus-router`
-- **Composable** -- six independent packages, use what you need
-- **Python native** -- standard `pip install -e .` workflow, `pytest` for testing
-
----
-
-## Projects
-
-| Package | Description |
-|---------|-------------|
-| `nexus-attest` | Attestation signing and verification |
-| `nexus-control` | Control plane for governance policies |
-| `nexus-router` | Request routing and dispatch |
-| `nexus-router-adapter-stdout` | Router adapter for stdout transport |
-| `nexus-router-adapter-http` | Router adapter for HTTP transport |
-| `nexus-router-adapter-template` | Template for building custom adapters |
+- **प्रमाणीकरण:** `nexus-attest` के साथ टूल के आउटपुट पर हस्ताक्षर करें और उन्हें सत्यापित करें।
+- **शासन:** `nexus-control` के साथ नीतियां परिभाषित करें और लागू करें।
+- **रूटिंग:** `nexus-router` के साथ प्लग करने योग्य एडेप्टर के माध्यम से अनुरोधों को भेजें।
+- **मॉड्यूलर:** छह स्वतंत्र पैकेज, आप जो चाहें उसका उपयोग करें।
+- **पायथन मूल:** मानक `pip install -e .` वर्कफ़्लो, परीक्षण के लिए `pytest`।
 
 ---
 
-## Quick Start
+## परियोजनाएं
+
+| पैकेज | विवरण |
+| --------- | ------------- |
+| `nexus-attest` | प्रमाणीकरण हस्ताक्षर और सत्यापन |
+| `nexus-control` | शासन नीतियों के लिए नियंत्रण प्रणाली |
+| `nexus-router` | अनुरोध रूटिंग और प्रेषण |
+| `nexus-router-adapter-stdout` | स्टैंडर्ड आउटपुट (stdout) परिवहन के लिए राउटर एडेप्टर |
+| `nexus-router-adapter-http` | एचटीटीपी परिवहन के लिए राउटर एडेप्टर |
+| `nexus-router-adapter-template` | कस्टम एडेप्टर बनाने के लिए टेम्पलेट |
+
+---
+
+## शुरुआत कैसे करें
 
 ```bash
 # Clone
@@ -56,7 +56,7 @@ pytest
 
 ---
 
-## Architecture
+## आर्किटेक्चर
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,6 +82,6 @@ pytest
 
 ---
 
-## License
+## लाइसेंस
 
-[MIT](LICENSE)
+[एमआईटी](LICENSE)
