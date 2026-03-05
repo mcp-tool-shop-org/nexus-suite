@@ -14,7 +14,7 @@ export const config: SiteConfig = {
     headlineAccent: 'governance for tool ecosystems.',
     description: 'Attestation signing, governance policies, and request routing for MCP tool ecosystems. Six composable Python packages \u2014 plug in what you need, leave the rest.',
     primaryCta: { href: '#quick-start', label: 'Get started' },
-    secondaryCta: { href: '#features', label: 'Learn more' },
+    secondaryCta: { href: 'handbook/', label: 'Read the Handbook' },
     previews: [
       { label: 'Install', code: 'cd src/nexus-router && pip install -e .' },
       { label: 'Test', code: 'pytest' },
